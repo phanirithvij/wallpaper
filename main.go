@@ -12,6 +12,7 @@ import (
 // Empty string on all other operating systems.
 var Desktop = os.Getenv("XDG_CURRENT_DESKTOP")
 
+// DesktopSession used for LXDE
 var DesktopSession = os.Getenv("DESKTOP_SESSION")
 
 // ErrUnsupportedDE is thrown when Desktop is not a supported desktop environment.
